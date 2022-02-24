@@ -16,11 +16,6 @@ public class UserMapper {
                 userDto.getAuthorLastname(),
                 userDto.getSignUpDate()
         );
-/*        User user = new User();
-        user.setId(userDto.getId());
-        user.setAuthorLastname(userDto.getAuthorLastname());
-        user.setSignUpDate(userDto.getSignUpDate());
-        return user;*/
     }
 
     public UserDto mapToUserDto(User user){
